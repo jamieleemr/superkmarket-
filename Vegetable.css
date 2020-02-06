@@ -1,0 +1,39 @@
+#searchbar{ 
+        margin-left: 10%; 
+        padding:15px; 
+        border-radius: 10px;} 
+ 
+input[type=text] { 
+        width:35%; 
+        transition: width 0.1s ease-in-out; 
+        transition: width 0.15s ease-in-out;} 
+ 
+input[type=text]: focus{ 
+        width: 70%;} 
+ 
+#list{
+        font-size:  2em; 
+        margin-left: 120px;}
+
+ 
+vegetable{ 
+        display: list-item;}
+
+
+body{
+        background-color:darkgreen}
+    
+footer { color:white;
+        position: absolute;
+        bottom: 0;
+        width: 100%;} 
+
+
+h1 {
+        text-align: center;
+        color: white}
+
+ul li{
+        color: white;
+        font-size: 25px;
+        padding:4px}

@@ -1,0 +1,40 @@
+#searchbar{ 
+        margin-left: 10%; 
+        padding:15px; 
+        border-radius: 10px;} 
+ 
+input[type=text] { 
+        width: 35%; 
+        transition: width 0.1s ease-in-out; 
+        transition: width 0.15s ease-in-out;} 
+ 
+input[type=text]: focus{ 
+        width: 70%;} 
+ 
+#list{
+        font-size:  2em; 
+        margin-left: 120px;}
+
+ 
+fruits{ 
+        display: list-item;}
+
+
+body{
+        background-color:darkgoldenrod}
+    
+footer { color:azure;
+        position: absolute;
+        bottom: 0;
+        width: 100%;} 
+
+
+h1 {
+        text-align: center;
+        color: azure}
+
+ul li{
+        color: azure;
+        font-size: 25px;
+        padding:5px}
+h2{text-align: center}
